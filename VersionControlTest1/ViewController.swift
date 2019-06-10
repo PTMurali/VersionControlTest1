@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     let message = "Hello Git!"
     
+    @IBOutlet weak var myLbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         

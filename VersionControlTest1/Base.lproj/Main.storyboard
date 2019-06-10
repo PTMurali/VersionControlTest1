@@ -25,14 +25,26 @@
                                     <constraint firstAttribute="width" constant="240" id="uJU-Ew-ArM"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nkc-Sv-uwQ">
+                                <rect key="frame" x="67.5" y="418.5" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Nkc-Sv-uwQ" firstAttribute="trailing" secondItem="VjO-dL-ccG" secondAttribute="trailing" id="KTm-jj-gyQ"/>
+                            <constraint firstItem="Nkc-Sv-uwQ" firstAttribute="top" secondItem="VjO-dL-ccG" secondAttribute="bottom" constant="10" id="S5D-1x-pS4"/>
                             <constraint firstItem="VjO-dL-ccG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XN8-vs-63C"/>
                             <constraint firstItem="VjO-dL-ccG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h57-wN-vyq"/>
+                            <constraint firstItem="Nkc-Sv-uwQ" firstAttribute="leading" secondItem="VjO-dL-ccG" secondAttribute="leading" id="wOy-aw-zoU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="myLbl" destination="Nkc-Sv-uwQ" id="UDJ-cd-3xZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
